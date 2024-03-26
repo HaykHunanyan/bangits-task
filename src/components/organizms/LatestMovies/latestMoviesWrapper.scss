@@ -1,0 +1,27 @@
+.movie_content{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+}
+.movie_list{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    li{
+        width: 200px;
+        height: 350px;
+        a{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            flex-direction: column;
+            >img{
+                width: 95%;
+            }
+        }
+    }
+}

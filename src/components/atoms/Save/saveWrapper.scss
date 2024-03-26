@@ -1,0 +1,13 @@
+svg {
+    width:40px;
+    height: 40px;
+    cursor:pointer;
+    *[data-custom-attribute="false"] {
+      fill: white;
+      stroke: black;
+    }
+    *[data-custom-attribute="true"] {
+        fill: black;
+        stroke: white;
+      }
+}

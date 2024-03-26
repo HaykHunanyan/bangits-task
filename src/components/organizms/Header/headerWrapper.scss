@@ -1,0 +1,26 @@
+.header_content{
+    display: flex;
+    width: 100%;
+    background: #8dcaff;
+    margin: 0px;
+    height: 70px;
+    >ul{
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        margin: 0px;
+        >li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            >a{
+                text-decoration: none;
+                color:white;
+            }
+            &:hover{
+                background-color: #5d89af;
+            }
+        }
+    }
+}
