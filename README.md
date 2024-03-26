@@ -10,3 +10,6 @@
 2. node findDuplicateNumber.js
 
 ////////////////////////////////
+the third one you can use with
+
+node uuidReduce.js
